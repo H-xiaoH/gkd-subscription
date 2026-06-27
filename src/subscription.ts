@@ -1,16 +1,14 @@
 import { defineGkdSubscription } from '@gkd-kit/define';
 import { batchImportApps } from '@gkd-kit/tools';
-import categories from './categories';
-import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
   id: 233,
-  name: 'Subscription',
+  name: 'HxiaoH\'s GKD Subscription',
   version: 0,
-  author: 'author',
+  author: 'HxiaoH',
   checkUpdateUrl: './gkd.version.json5',
-  supportUri: 'https://github.com/gkd-kit/subscription-template',
-  categories,
-  globalGroups,
+  supportUri: 'https://github.com/H-xiaoH/gkd-subscription',
+  categories: [{ key: 0, name: '开屏广告' }],
+  globalGroups: [],
   apps: await batchImportApps(`${import.meta.dirname}/apps`),
 });
