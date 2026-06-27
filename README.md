@@ -21,13 +21,13 @@
 ## 订阅地址
 
 ```txt
-https://raw.githubusercontent.com/hxiaoh/gkd-subscription/main/dist/gkd.json5
+https://raw.githubusercontent.com/H-xiaoH/gkd-subscription/main/dist/gkd.json5
 ```
 
 镜像加速：
 
 ```txt
-https://fastly.jsdelivr.net/gh/hxiaoh/gkd-subscription@main/dist/gkd.json5
+https://fastly.jsdelivr.net/gh/H-xiaoH/gkd-subscription@main/dist/gkd.json5
 ```
 
 ## 开发
