@@ -13,6 +13,8 @@ export default defineGkdApp({
         matches:
           '[vid="fl_thrid_splash_container"] [name="android.view.View"][clickable=true]',
       },
+      // AdsActivity 的跳过键是无 vid 的 TextView（text「跳过 3」倒计时），上面几条都匹配不到
+      { matches: '[text*="跳过"][clickable=true]' },
     ]),
   ],
 });
