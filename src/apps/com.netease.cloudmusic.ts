@@ -7,7 +7,7 @@ export default defineGkdApp({
   groups: [
     splashAd([
       // 9.6.15：开屏广告挂在 MainActivity 上，跳过键 vid skipBtn，text「跳过 4」
-      { matches: '[vid="com.netease.cloudmusic:id/skipBtn"]' },
+      { matches: '[vid="skipBtn"]' },
     ]),
   ],
 });
