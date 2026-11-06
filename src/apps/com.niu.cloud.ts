@@ -7,7 +7,7 @@ export default defineGkdApp({
   groups: [
     splashAd([
       // 5.19.0 WelComeActivity：跳过键是带倒计时的 TextView（「2 跳过」），vid 稳定
-      { matches: '[vid="com.niu.cloud:id/skipAdsBtn"]' },
+      { matches: '[vid="skipAdsBtn"]' },
     ]),
   ],
 });
