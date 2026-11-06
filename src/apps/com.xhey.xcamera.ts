@@ -11,11 +11,11 @@ export default defineGkdApp({
       // 3.0.465 起：跳过按钮本体与文字都无 vid/无 text，锚点改用父容器 adContainer
       {
         matches:
-          '[vid="com.xhey.xcamera:id/adContainer"] [name="android.view.View"][clickable=true]',
+          '[vid="adContainer"] [name="android.view.View"][clickable=true]',
       },
       {
         matches:
-          '[vid="com.xhey.xcamera:id/adContainer"] [name="android.widget.TextView"][clickable=true]',
+          '[vid="adContainer"] [name="android.widget.TextView"][clickable=true]',
       },
     ]),
   ],
